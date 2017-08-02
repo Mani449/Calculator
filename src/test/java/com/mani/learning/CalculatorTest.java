@@ -20,7 +20,7 @@ public class CalculatorTest {
 	
 	
 	@Test
-	public void testDivide(){
+	public void testDivision(){
 		
 		Assert.assertTrue(calc.operation((u,v)->u/v)==0);
 	}
