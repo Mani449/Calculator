@@ -11,4 +11,10 @@ public class CalculatorTest {
 		
 		Assert.assertTrue(calc.operation((u,v)->Integer.sum(u, v))==7);
 	}
+	
+	@Test
+	public void testMultiply(){
+		
+		Assert.assertTrue(calc.operation((u,v)->u*v)==10);
+	}
 }
