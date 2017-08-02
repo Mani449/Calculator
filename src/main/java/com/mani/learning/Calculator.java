@@ -6,7 +6,7 @@ public class Calculator<T> {
 
 	private T operator1, operator2;
 
-	/* Empty constructor 
+	/** Empty constructor 
 	 * for the creation
 	 *  of Calculator object */
 	public Calculator() {
