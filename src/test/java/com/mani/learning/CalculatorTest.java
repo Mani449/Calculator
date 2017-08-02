@@ -9,7 +9,7 @@ public class CalculatorTest {
 	@Test
 	public void testAdd(){
 		
-		Assert.assertTrue(calc.operation((u,v)->Integer.sum(u, v))==7);
+		Assert.assertTrue(calc.operation((u,v)->u+v)==7);
 	}
 	
 	@Test
