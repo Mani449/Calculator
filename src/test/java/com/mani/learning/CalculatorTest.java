@@ -17,4 +17,11 @@ public class CalculatorTest {
 		
 		Assert.assertTrue(calc.operation((u,v)->u*v)==10);
 	}
+	
+	
+	@Test
+	public void testDivide(){
+		
+		Assert.assertTrue(calc.operation((u,v)->u/v)==0);
+	}
 }
