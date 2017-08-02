@@ -8,11 +8,11 @@ public class Calculator<T> {
 
 	/** Empty constructor 
 	 * for the creation
-	 *  of Calculator object */
+	 *  of Calculator object. */
 	public Calculator() {
 
 	}
-
+	/** Calculator constructor with operands. */
 	public Calculator(final T operator1, final T operator2) {
 		this.operator1 = operator1;
 		this.operator2 = operator2;
