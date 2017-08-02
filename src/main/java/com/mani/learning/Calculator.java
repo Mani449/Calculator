@@ -12,7 +12,7 @@ public class Calculator<T> {
 	public Calculator() {
 
 	}
-	/** Calculator constructor with operands. */
+	/** Calculator constructor with operands. hellow */
 	public Calculator(final T operator1, final T operator2) {
 		this.operator1 = operator1;
 		this.operator2 = operator2;
