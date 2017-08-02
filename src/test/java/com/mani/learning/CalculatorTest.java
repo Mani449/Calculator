@@ -15,6 +15,6 @@ public class CalculatorTest {
 	@Test
 	public void testMultiply(){
 		
-		Assert.assertTrue(calc.operation((u,v)->u*v)==10);
+		Assert.assertTrue(calc.operation((u,v)->u*v)==1);
 	}
 }
